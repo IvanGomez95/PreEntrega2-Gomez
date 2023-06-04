@@ -1,0 +1,65 @@
+nav img{
+    width: 60px;
+}
+
+.aligned-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bg-blue{
+    background-color: #0C134F;
+}
+
+
+.footer {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: silver;
+    text-align: center;
+  }
+
+.footer p{
+    text-align: center;
+}
+
+
+.blue_main{
+    background-color: #DEDEA7;
+}
+
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.justified_text{
+    text-align: justify;
+}
+
+.centered-text-index{
+    align-self: center;
+}
+
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+  }
+  
+  svg {
+    width: 60px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+  }
+  
+  circle {
+    fill: #25d366;
+  }
+  path {
+    fill: #0fa830;
+  }
