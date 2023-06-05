@@ -13,10 +13,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="pt-5">
 
     <header>
-        <nav class="navbar navbar-expand-md bg-blue navbar-dark">
+        <nav class="navbar navbar-expand-md bg-blue navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand d-none d-lg-block" href="../index.html">
                     <img src="../media/logo-estudio.jpeg" alt="logo.estudio" class="rounded-pill me-3"> Estudio Jurídico López, Ferlat y Asociados 
@@ -28,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse aligned-right" id="nav-responsive">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav-underline">
                         <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link active" href="trayectoria.html">Trayectoria</a></li>
@@ -41,21 +41,30 @@
     </header>  
       
 
-    <main>
-        <h2>Nuestra trayectoria</h2>
-        <section>   
-            <article>
-                <p>Con más de 10 años de experiencia en el rubro, hemos llevado tranquilidad a nuestros clientes, de manera rápida y efectiva. Nuestros profesionales, totalmente dedicados a brindar un servicio de calidad, han logrado resolver los casos más complejos en materia hereditaria sin las usuales y tan lamentables demoras de cualquier proceso judicial. Acá te compartimos algunas opiniones de nuestros clientes sobre nuestra tarea.</p>
-                <p>Ernesto Mazzini</p>
-                <img src="../media/mazzini.avif" alt="ernesto-mazzini">
-                <p>Antes de contactar al estudio LF había estado esperando muchísimo tiempo un proceso de sucesión que se me hizo eterno. Gracias al trabajo de Silvia y Adriana pude resolverlo en muy poquito tiempo.</p>
-                <p>Susana Hruby</p>
-                <img src="../media/susana.webp" alt="susana-hruby">
-                <p>Hace un par de años decidí que era momento de empezar a planificar ante cualquier eventualidad de la vida. Contacté diversos estudios que en teoría ofrecían soluciones rápidas y buen asesoramiento en materia de planificación hereditaria, pero no fueron buenos profesionales. Luego conocí a Duilio y Adriana, quienes me asesoraron muy bien y resolvieron todo en materia de pocos meses.</p>
-                <p>Lorena Silvermann</p>
-                <img src="../media/lorena.jpg" alt="lorena-silvermann">
-                <p>En uno de los momentos más duros de mi vida, cuando partió mi papá, me la pasé buscando soluciones en materia de sucesión. Me encontré con muy pocos profesionales realmente capacitados a nivel humano. Silvia, Duilio y Adriana son excelentes personas y entendieron mis necesidades y las de mi mamá y nos acompañaron en todo el proceso.</p>
-            </article>
+    <main class="pt-5">
+        <section class="container">
+            <h2>Nuestra trayectoria</h2> 
+            <div class="row">  
+                <div class="row">
+                    <p class="col-lg-12">Con más de 10 años de experiencia en el rubro, hemos llevado tranquilidad a nuestros clientes, de manera rápida y efectiva. Nuestros profesionales, totalmente dedicados a brindar un servicio de calidad, han logrado resolver los casos más complejos en materia hereditaria sin las usuales y tan lamentables demoras de cualquier proceso judicial. Acá te compartimos algunas opiniones de nuestros clientes sobre nuestra tarea.</p>
+                </div>
+
+                <div class="row"> 
+                    <p class="col-lg-4 justified_text centered-text-index offset-lg-1 lead">"Antes de contactar al estudio LF había estado esperando muchísimo tiempo un proceso de sucesión que se me hizo eterno. Gracias al trabajo de Silvia y Adriana pude resolverlo en muy poquito tiempo". Ernesto Mazzini</p>
+                    <img class="img-fluid col-lg-4 offset-lg-1 rounded-circle" src="../media/mazzini.avif" alt="ernesto-mazzini">
+                </div>
+
+                <div class="row mt-5">
+                    <p class="col-lg-4 justified_text centered-text-index offset-lg-1 lead">"Hace un par de años decidí que era momento de empezar a planificar ante cualquier eventualidad de la vida. Contacté diversos estudios que en teoría ofrecían soluciones rápidas y buen asesoramiento en materia de planificación hereditaria, pero no fueron buenos profesionales. Luego conocí a Duilio y Adriana, quienes me asesoraron muy bien y resolvieron todo en materia de pocos meses". Susana Hruby</p>
+                    <img class="img-fluid col-lg-4 offset-lg-1 rounded-circle" src="../media/susana.webp" alt="susana-hruby">
+                </div>
+
+                <div class="row mt-5">
+                    <p class="col-lg-4 justified_text centered-text-index offset-lg-1 lead">"En uno de los momentos más duros de mi vida, cuando partió mi papá, me la pasé buscando soluciones en materia de sucesión. Me encontré con muy pocos profesionales realmente capacitados a nivel humano. Silvia, Duilio y Adriana son excelentes personas y entendieron mis necesidades y las de mi mamá y nos acompañaron en todo el proceso". Lorena Silvermann</p>
+                    <img class="img-fluid col-lg-4 offset-lg-1 rounded-circle" src="../media/lorena.jpg" alt="lorena-silvermann">
+                </div>    
+
+            </div>    
         </section>
         
         <div id="whatsapp">
@@ -66,7 +75,7 @@
     </main>
 
     
-    <footer class="container-fluid bg-blue ">
+    <footer class="container-fluid bg-blue mt-3">
         <div class="row align-items-center">
             <ul class="col-lg-4 text-center nav flex-column navbar-nav navbar-dark"> 
                 <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
