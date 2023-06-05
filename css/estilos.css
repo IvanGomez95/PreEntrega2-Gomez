@@ -31,10 +31,9 @@ nav img{
     background-color: #DEDEA7;
 }
 
+
 .text-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  color: white;
 }
 
 .justified_text{
@@ -42,7 +41,7 @@ nav img{
 }
 
 .centered-text-index{
-    align-self: center;
+    align-self:center;
 }
 
 
@@ -63,3 +62,14 @@ nav img{
   path {
     fill: #0fa830;
   }
+
+
+
+.imagenes-footer a{
+  text-decoration: none;
+}
+
+
+.hyperlink-servicios{
+  text-decoration: none;
+}
