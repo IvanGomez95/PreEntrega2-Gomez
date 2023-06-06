@@ -42,29 +42,36 @@
     
     
 
-    <main class="pt-5">
-        <h2>Contacto</h2>
+    <main class="pt-5 pb-3">
 
-        <section>
-            <form action="#" method="get" enctype="#">
-                <fieldset class="container">
-                    <div class="form-group row">
-                        <legend> Dejanos tu consulta y la brevedad nos estaremos comunicando:</legend>
-                        <label for="name">Nombre:</label>
-                        <input class="col-lg-2 col-md-4 mb-2" type="text" id="name" name="name" required>
-                        <label for="last_name">Apellido/s:</label>
-                        <input class="col-lg-2 col-md-4 mb-2" type="text" id="last_name" name="last_name" required>
-                        <label for="mail">E-mail:</label>
-                        <input class="col-lg-2 col-md-4 mb-2" type="email" id="mail" name="mail" required>
-                        <label for="number">Número de teléfono:</label>
-                        <input class="col-lg-2 col-md-4 mb-3" type="number" id="number" name="number" required>
-                        <textarea class="col-lg-12 col-md-12 mb-3" name="consulta" id="consulta" cols="auto" rows="auto" maxlength="300">Dejanos tu consulta...</textarea>
-                        <input class="col-lg-2 col-md-6 mt-3 me-2 btn btn-primary" type="submit" value="Enviar" >
-                        <input class="col-lg-2 col-md-6 mt-3 btn btn-primary" type="reset" value="Reestablecer">
-                    </div>    
+        <section class="container">                    
+            <div class="row">
+                <div class="col-lg-5">        
+                    <h2>Contacto</h2>
+                    <legend> Dejanos tu consulta y la brevedad nos estaremos comunicando:</legend>
+                
+                    <form action="#" method="get" enctype="#">                    
+                        <label class="form-label" for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+  
+                        <label class="form-label" for="last_name">Apellido/s:</label>
+                        <input type="text" id="last_name" name="last_name" required>
+
+                        <label class="form-label" for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="mail" required>
+  
+                        <label class="form-label" for="number">Número de teléfono:</label>
+                        <input type="number" id="number" name="number" required>
+  
+                        <textarea class="mt-3" name="consulta" placeholder="Dejanos tu consulta..." id="consulta" cols="5" rows="5" maxlength="300"></textarea>
+
+                        <input class="mt-3 me-2 button-footer" type="submit" value="Enviar" >
+                        <input class="mt-3 button-footer" type="reset" value="Reestablecer">
+                    </form>    
+                </div>    
+            </div>    
                         
-                </fieldset>
-            </form>
+            
         </section>
         <div id="whatsapp">
             <a href="https://api.whatsapp.com/send?phone=+541134487574&text=Chatear con Estudio Lopez, Ferlat y Asociados" target="_blank">
@@ -75,7 +82,7 @@
 
     
     
-    <footer class="container-fluid bg-blue ">
+    <footer class="container-fluid bg-blue">
         <div class="row align-items-center">
             <ul class="col-lg-4 text-center nav flex-column navbar-nav navbar-dark"> 
                 <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
