@@ -96,7 +96,7 @@ h1, h2, h3{
 }
 
 
-
+/* FORMULARIO */
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
@@ -166,17 +166,29 @@ input[type=submit], input[type=reset] {
   color: white;
 }
 
+.button-footer{
+  align-items: center;
+}
+
+.form-border{
+  border: 3px solid #555;
+}
+/* FORMULARIO */
 
 
-
-
+/* ESTILO EL ESTUDIO */
 .img-thumbnail{
   background-color:rgb(155, 123, 81);
   border-radius: 30%;
   border: 5px double black;
 }
 
-
+.spaced-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* ESTILO EL ESTUDIO */
 
 
 figure {
