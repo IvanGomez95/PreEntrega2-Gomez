@@ -1,6 +1,13 @@
 *{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Tenor Sans', sans-serif;
 }
+
+
+h1, h2, h3{
+  font-variant:small-caps;
+}
+
+
 
 /* TAMAÑO LOGO MARCA EN NAV */
 nav img{
@@ -51,6 +58,10 @@ main{
 .text-flex{
   color: white;
 }
+
+.nav-link{
+  color: antiquewhite;
+}
 /* COLOR TEXTO DE FOOTER */
 
 /* TEXTO JUSTIFICADO EN TODOS LOS P */
@@ -91,9 +102,6 @@ main{
 }
 
 
-h1, h2, h3{
-  font-variant:small-caps;
-}
 
 
 /* FORMULARIO */
