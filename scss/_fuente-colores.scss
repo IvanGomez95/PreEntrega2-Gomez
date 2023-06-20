@@ -1,0 +1,19 @@
+//Fuente de todo el sitio//
+*{
+    font-family: $site-font;
+}
+//Color de cuerpo de todo el sitio//
+body{
+    background-color: $body-color;
+}
+/*TEXTO JUSTIFICADO EN TODOS LOS P*/
+.justified_text{
+    text-align: justify;
+}
+/*TEXTO JUSTIFICADO EN TODOS LOS P*/
+
+/*TEXTO ALINEADO EN INDEX*/
+.centered-text-index{
+    align-self:center;
+}
+/*TEXTO ALINEADO EN INDEX*/

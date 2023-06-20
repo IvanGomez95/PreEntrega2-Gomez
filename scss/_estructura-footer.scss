@@ -1,0 +1,29 @@
+/* ESTRUCTURA Y ESTILOS DE FOOTER */
+.footer{
+    display:flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: silver;
+    text-align: center;
+        p{
+            text-align: center;
+    }
+}
+
+.imagenes-footer a{
+    text-decoration: none;
+}
+
+.text-flex{
+    color: white;
+}
+
+.bg-blue{
+    background-color: $nav-footer-color;
+}
+
+.nav-link{
+    color: antiquewhite;
+}
+/* ESTRUCTURA Y ESTILOS DE FOOTER */

@@ -1,0 +1,26 @@
+/*ESTILOS EL ESTUDIO*/
+.img-thumbnail{
+    background-color:rgb(155, 123, 81);
+    border-radius: 30%;
+    border: 5px double black;
+}
+  
+.spaced-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.el-estudio-img {
+    transition: transform .2s;
+    margin: 0 auto;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+  
+figure {
+    text-align: center;
+    margin: 5px;
+}
+/*ESTILOS EL ESTUDIO*/

@@ -19,7 +19,7 @@ nav img{
 
 
 body{
-  background-color: #e2efdeff;
+  background-color: rgb(226, 240, 222);
 }
 
 
@@ -76,17 +76,17 @@ body{
     right:20px;
   }
 
-  svg {
+svg {
     width: 60px;
     filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
-  }
+}
   
-  circle {
+circle {
     fill: #25d366;
-  }
+}
   path {
     fill: #0fa830;
-  }
+}
 /* LOGO WHATSAPP */
 
 
@@ -177,7 +177,7 @@ input[type=submit], input[type=reset] {
   color: white;
 }
 
-.button-footer{
+.button-contact{
   align-items: center;
 }
 
