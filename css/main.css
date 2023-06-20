@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+  font-family: "Anek Kannada", sans-serif;
+}
+
+body {
+  background-color: rgb(226, 239, 222);
+}
+
+/*TEXTO JUSTIFICADO EN TODOS LOS P*/
+.justified_text {
+  text-align: justify;
+}
+
+/*TEXTO JUSTIFICADO EN TODOS LOS P*/
+/*TEXTO ALINEADO EN INDEX*/
+.centered-text-index {
+  align-self: center;
+}
+
+/*TEXTO ALINEADO EN INDEX*/
+/* TAMAÑO LOGO MARCA EN NAV */
+nav img {
+  width: 60px;
+}
+
+/* TAMAÑO LOGO MARCA EN NAV */
+/*COLOR DEL NAV*/
+.bg-blue {
+  background-color: #0C134F;
+}
+
+/*COLOR DEL NAV*/
+h1, h2, h3 {
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*LOGO DE WHATSAPP*/
+#whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+svg {
+  width: 60px;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+circle {
+  fill: #25d366;
+}
+
+path {
+  fill: #0fa830;
+}
+
+/*LOGO DE WHATSAPP*/
+.hyperlink-servicios {
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.hyperlink-servicios:hover {
+  color: #0fa830;
+}
+
+/*ESTILOS EL ESTUDIO*/
+.img-thumbnail {
+  background-color: rgb(155, 123, 81);
+  border-radius: 30%;
+  border: 5px double black;
+}
+
+.spaced-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.el-estudio-img {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.el-estudio-img:hover {
+  transform: scale(1.1);
+}
+
+figure {
+  text-align: center;
+  margin: 5px;
+}
+
+/*ESTILOS EL ESTUDIO*/
+/*ESTILO Y ESTRUCTURA CONTACTO Y FORM*/
+input[type=text], input[type=number], input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus {
+  border: 3px solid #555;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea:focus {
+  border: 3px solid #555;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #0C134F;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button-contact {
+  align-items: center;
+}
+.button-contact:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-border {
+  border: 5px solid #555;
+}
+
+/*ESTILO Y ESTRUCTURA CONTACTO Y FORM*/
+/* ESTRUCTURA Y ESTILOS DE FOOTER */
+.footer {
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: silver;
+  text-align: center;
+}
+.footer p {
+  text-align: center;
+}
+
+.imagenes-footer a {
+  text-decoration: none;
+}
+
+.text-flex {
+  color: white;
+}
+
+.bg-blue {
+  background-color: #0C134F;
+}
+
+.nav-link {
+  color: antiquewhite;
+}
+
+/* ESTRUCTURA Y ESTILOS DE FOOTER */
+/*ANIMACIONES*/
+.focus-in-expand {
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+/*ANIMACIONES*/
+
+/*# sourceMappingURL=main.css.map */

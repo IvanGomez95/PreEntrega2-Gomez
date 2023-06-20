@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "name": "preentrega2-gomez",
+  "version": "1.0.0",
+  "description": "PreEntrega 3 de Coderhouse",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iván Gómez",
+  "license": "ISC"
+}
