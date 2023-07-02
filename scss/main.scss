@@ -1,14 +1,14 @@
-@import "variables";
-@import "fuente-colores";
-@import "estructura-nav";
-@import "mixins";
-@import "headings";
-@import "logo-whatsapp";
-@import "estructura-servicios";
-@import "estructura-el-estudio";
-@import "estructura-contacto";
-@import "estructura-footer";
-@import "animaciones";
+@import "./base/variables";
+@import "./base/fuente-colores";
+@import "./components/estructura-nav";
+@import "./base/mixins";
+@import "./layout/headings";
+@import "./components/logo-whatsapp";
+@import "./layout/estructura-servicios";
+@import "./layout/estructura-el-estudio";
+@import "./layout/estructura-contacto";
+@import "./layout/estructura-footer";
+@import "./components/animaciones";
 
 
 
